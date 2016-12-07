@@ -1,0 +1,105 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+    <ion-buttons left>
+      <button menuToggle ion-button icon-only>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+
+  <!-- <ion&#45;list> -->
+  <!--   <button ion&#45;button block (click)="setKey()">Test</button> -->
+  <!--   <button ion&#45;button block (click)="getKey()">get</button> -->
+  <!--  -->
+  <!--   <ion&#45;item> -->
+  <!--     <ion&#45;label>01</ion&#45;label> -->
+  <!--     <ion&#45;input></ion&#45;input> -->
+  <!--   </ion&#45;item> -->
+  <!--   <ion&#45;item> -->
+  <!--     <ion&#45;label>02</ion&#45;label> -->
+  <!--     <ion&#45;input></ion&#45;input> -->
+  <!--   </ion&#45;item> -->
+  <!--   <ion&#45;item> -->
+  <!--     <ion&#45;label>03</ion&#45;label> -->
+  <!--     <ion&#45;input></ion&#45;input> -->
+  <!--   </ion&#45;item> -->
+  <!--   <ion&#45;item> -->
+  <!--     <ion&#45;label>04</ion&#45;label> -->
+  <!--     <ion&#45;input></ion&#45;input> -->
+  <!--   </ion&#45;item> -->
+  <!--   <ion&#45;item> -->
+  <!--     <ion&#45;label>05</ion&#45;label> -->
+  <!--     <ion&#45;input></ion&#45;input> -->
+  <!--   </ion&#45;item> -->
+  <!--   <ion&#45;item> -->
+  <!--     <ion&#45;label>06</ion&#45;label> -->
+  <!--     <ion&#45;input></ion&#45;input> -->
+  <!--   </ion&#45;item> -->
+  <!--   <ion&#45;item> -->
+  <!--     <ion&#45;label>07</ion&#45;label> -->
+  <!--     <ion&#45;input></ion&#45;input> -->
+  <!--   </ion&#45;item> -->
+  <!--   <ion&#45;item> -->
+  <!--     <ion&#45;label>08</ion&#45;label> -->
+  <!--     <ion&#45;input></ion&#45;input> -->
+  <!--   </ion&#45;item> -->
+  <!--   <ion&#45;item> -->
+  <!--     <ion&#45;label>09</ion&#45;label> -->
+  <!--     <ion&#45;input></ion&#45;input> -->
+  <!--   </ion&#45;item> -->
+  <!--   <ion&#45;item> -->
+  <!--     <ion&#45;label>10</ion&#45;label> -->
+  <!--     <ion&#45;input></ion&#45;input> -->
+  <!--   </ion&#45;item> -->
+  <!--  -->
+  <!--   <ion&#45;item color="light"> -->
+  <!--     <p>Hello</p> -->
+  <!--   </ion&#45;item> -->
+  <!--   <ion&#45;item> -->
+  <!--     <ion&#45;label>Number</ion&#45;label> -->
+  <!--     <ion&#45;input type="number" [(ngModel)]="testNumber"></ion&#45;input> -->
+  <!--   </ion&#45;item> -->
+  <!--   <ion&#45;item> -->
+  <!--     <ion&#45;label>School Code</ion&#45;label> -->
+  <!--     <ion&#45;input type="text"></ion&#45;input> -->
+  <!--     <button clear ion&#45;button item&#45;right icon&#45;only> -->
+  <!--           <ion&#45;icon name="add&#45;circle"></ion&#45;icon> -->
+  <!--       </button> -->
+  <!--   </ion&#45;item> -->
+  <!--   <ion&#45;item> -->
+  <!--     <button clear ion&#45;button item&#45;right icon&#45;only> -->
+  <!--           <ion&#45;icon name="add&#45;circle"></ion&#45;icon> -->
+  <!--       </button> -->
+  <!--   </ion&#45;item> -->
+  <!--   <form [formGroup]="form"> -->
+  <!--   <ion&#45;item> -->
+  <!--     <ion&#45;label>Date</ion&#45;label> -->
+  <!--     <ion&#45;datetime displayFormat="MM/DD/YYYY" formControlName="myDate"></ion&#45;datetime> -->
+  <!--   </ion&#45;item> -->
+  <!--   </form> -->
+  <!-- </ion&#45;list> -->
+  <!--  -->
+  <!-- <button large ion&#45;button item&#45;right icon&#45;only clear> -->
+  <!--   <ion&#45;icon name="add&#45;circle"></ion&#45;icon> -->
+  <!-- </button> -->
+  <button color="danger" ion-button (click)='showmodal()' block>Show Modal</button>
+  <button color="danger" ion-button (click)='showPopover($event)' block>Show Popover</button>
+  <button ion-button (click)='pushPage()' block>pushPage</button>
+
+ <ion-fab right bottom>
+    <button ion-fab color="primary"><ion-icon name="arrow-dropleft"></ion-icon></button>
+    <ion-fab-list side="left">
+      <button ion-fab color="primary"><ion-icon name="desktop"></ion-icon></button>
+      <button ion-fab color="primary"><ion-icon name="mail"></ion-icon></button>
+      <button ion-fab color="primary"><ion-icon name="cube"></ion-icon></button>
+      <button ion-fab color="primary"><ion-icon name="shirt"></ion-icon></button>
+    </ion-fab-list>
+  </ion-fab>
+
+
+</ion-content>
