@@ -7,7 +7,7 @@ export class AboutPage {
   items = [];
 
   constructor() {
-    for (let i = 0; i < 40; i++) {
+    for (let i = 0; i < 400; i++) {
       this.items.push({
         name: i,
         value: false
