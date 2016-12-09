@@ -10,7 +10,8 @@ export class AboutPage {
     for (let i = 0; i < 400; i++) {
       this.items.push({
         name: i,
-        value: false
+        value: false,
+        img: `http://placekitten.com/60/${55 + (i % 10)}`
       });
     }
   }

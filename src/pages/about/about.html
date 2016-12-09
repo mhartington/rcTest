@@ -14,8 +14,15 @@
 <ion-content>
   <ion-list [virtualScroll]="items">
 
-    <ion-item *virtualItem="let item" (click)="logValue(item)">
+    <ion-item *virtualItem="let item; let itemBounds = bounds;" (click)="logValue(item)">
+      <ion-thumbnail item-left>
+        <ion-img [src]="item.img" [bounds]="itemBounds"></ion-img>
+        <!-- <ion&#45;img src="./assets/img/news&#45;anchor.jpg" [bounds]="itemBounds"></ion&#45;img> -->
+      </ion-thumbnail>
       <ion-label>{{item.name}}</ion-label>
+      <ion-thumbnail item-right>
+        <ion-img src="../assets/img/news-anchor.jpg" [bounds]="itemBounds"></ion-img>
+      </ion-thumbnail>
     </ion-item>
 
   </ion-list>
